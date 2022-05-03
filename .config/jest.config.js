@@ -17,8 +17,8 @@ module.exports = {
 
     config.testPathIgnorePatterns = ['/node_modules/', '/scripts/'];
     config.moduleNameMapper = {
-      '^useLocalStorage/(.+)$': '<rootDir>/$1',
-      '^useLocalStorage$': '<rootDir>',
+      '^use-storage/(.+)$': '<rootDir>/$1',
+      '^use-storage$': '<rootDir>',
     };
   },
 };

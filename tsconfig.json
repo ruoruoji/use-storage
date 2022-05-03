@@ -11,7 +11,10 @@
     "module": "es6",
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["node", "jest"]
+    "types": ["node", "jest"],
+    "paths": {
+      "use-storage": ["./src"]
+    }
   },
   "include": ["src/**/*.ts", "src/**/*.tsx"],
   "exclude": ["node_modules", "src/**/*.test.tsx", "src/**/*.test.ts", "src/demo/*.*"]
